@@ -1,0 +1,403 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+html,
+body {
+    font-family: "Nunito", sans-serif !important;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a 
+{ 
+ text-decoration:none !important; 
+} 
+
+.page-item.active .page-link {
+    color: white !important;
+}
+
+.page-link {
+    color: #005662 !important;
+}
+
+a:hover, a:hover>*, button:hover, button:hover>* {
+    color: #00424b !important;
+    transition: none !important;
+    filter: brightness(80%) !important;
+}
+
+h1, h2, h3 {
+    color: #005662;
+    font-weight: bold !important;
+}
+
+h3 {
+    font-size: 1.1rem !important;
+}
+
+.org {
+    color: #c49000;
+    font-weight: bold !important;
+}
+
+.table {
+    --bs-table-hover-bg:#c49000 !important;
+}
+
+#error-duck {
+    width: 1000px;
+    height: auto;
+}
+
+
+/* FOR THE CONNECTION PAGE */
+
+#logo_nesti>*{
+    height: 30%;
+    width: auto;
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    z-index: -1;
+}
+
+#wrapper_connection {
+    height: 100%;
+    background-position: center;
+    background-image: url(../images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+
+#container_connection {
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 10%;
+}
+
+#Connection-Username,
+#Connection-Password {
+    width: 100%;
+    padding: 12px 15px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.alerte-error-connection{
+    margin-left: 16%;
+}
+
+.alerte-error-roles
+{
+    margin-left: 25%;
+}
+
+.fa-sign-out-alt {
+    color:#c49000;
+    font-size: 20px;
+}
+
+.fa-user, #userNames {
+color: #005662;
+font-size: large;
+}
+
+#disconnection {
+    color: #c49000;
+    font-size: large
+}
+
+#Connection {
+    background-color: #1d596b;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    border: 1px solid #1d596b;
+    font-size: 18px;
+}
+
+#Connection:hover {
+    background-color: white;
+    color: #3079cc;
+    border: 1px solid #3789e7;
+}
+
+
+/* FOR THE NAVBAR */
+
+#mainNavbar{
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
+
+.nav-link{
+    transition: none !important;
+}
+
+#mainNavbar>* {
+    background-color: #005662;
+}
+
+.btnNavbar {
+    color: white;
+    background-color: #00838f;
+    font-size: large;
+}
+
+.active {
+    background-color: #c49000;
+}
+
+.fa-utensils,
+.fa-users,
+.fa-chart-bar,
+.fa-clipboard-list, .fa-eye  {
+    color: white;
+    font-size: 20px;
+}
+
+.shadow {
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+/* Bordered form */
+
+.row {
+    --bs-gutter-x: 0rem !important;
+}
+
+#container_connection h1 {
+    margin: 0 25%;
+    padding-bottom: 20px;
+}
+
+.fa-user-alt {
+    font-size: 33px;
+}
+
+.fa-lock {
+    font-size: 37px;
+}
+
+#button-add:hover,
+#button-add:hover>* {
+    color: white;
+    background-color: #00838f;
+    transition-duration: unset;
+}
+
+.fa-plus-circle,
+.fa-search
+{
+    color: #00838f;
+}
+
+#btn-commands {
+    background-color: #c49000;
+    color: white;
+}
+
+thead {
+    background-color: #00838f;
+    color: white;
+}
+
+.btn {
+    transition: none !important;
+}
+
+.btn:hover {
+    color: #00424b !important;
+}
+
+.btn-add{
+    background-color: white !important;
+    color: #00838f !important;
+}
+
+
+.btn-validation {
+    background-color: #b0d41c !important;
+    color: #005662 !important;
+    width: auto !important;
+}
+
+.btn-delete{
+    background-color: #d4311c !important;
+    color: #ffffff !important;
+    width: auto !important;
+}
+
+.btn-delete>* {
+    color: #ffffff !important;
+}
+
+.btn-reset {
+    background-color: #4fb3bf !important;
+    color: white !important;
+    width: auto !important;
+}
+
+.nav-location {
+    color: #4fb3bf;
+}
+
+.no-padding {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+.no-margin {
+    margin-bottom: 0 !important;
+}
+
+.bg-gray {
+    background-color: rgb(121, 119, 119);
+}
+
+.fa-caret-square-up,
+.fa-caret-square-down {
+    color: #1d596b;
+    font-size: 40px;
+}
+
+.fa-trash {
+    font-size: 40px;
+    color: red;
+}
+
+#buttonAddStepPreparation {
+    background-color: #b0d41c;
+    width: 93%;
+}
+
+.application {
+    width: 100%;
+    padding: 30px !important;
+    border: 1px solid #f1f1f1;
+    background: #fff;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+.list {
+    padding: 10px 10px 0px 10px !important;
+    border: 1px solid #f1f1f1;
+    background: #fff;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+.bt-tbl {
+    width: 100%;
+    padding: 5px !important;
+    text-decoration: none !important;
+    color: white !important;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+.fa-times {
+    color: red;
+}
+
+.buttonDelete {
+    background-color: white;
+}
+
+
+/* PAGE USER */
+
+/* REGISTER */
+
+#pwd-strength {
+    margin-top: 2px;
+    width: 100%;
+    height: 8px;
+    border-radius: .10rem;
+    background-color: red;
+}
+
+
+/* 1st For Firefox, 2nd For Chrome or Safari*/
+
+#pwd-strength::-moz-progress-bar,
+#pwd-strength::-webkit-progress-value {
+    background: green;
+}
+
+#password_verification {
+    font-size: small;
+    line-height: 1rem;
+}
+
+#password_conditions {
+    color: red;
+}
+
+
+/* EDITION */
+
+#infosUser {
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+.bc {
+    color: #005662;
+    text-decoration: none;
+}
+
+/* PAGE RECIPE */
+
+/* EDIT */
+
+#display-img-recipe {
+    background-color: #005662;
+    width:500px;
+    height:300px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    border-radius: 8px;
+}
+
+#display-img-article {
+    background-color: #005662;
+    width:500px;
+    height:300px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    border-radius: 8px;
+}
+
+/* FOR THE TABLE */
+.page-item.active .page-link {
+    z-index: 3;
+    color: #fff;
+    background-color: #005662 !important;
+    border-color: #005662 !important;
+}
+
+.dropdown-item.active, .dropdown-item:active {
+    background-color: #5c636a !important;
+}
