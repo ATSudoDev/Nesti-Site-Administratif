@@ -1,8 +1,7 @@
 # Nesti - Site Administratif
 
 [Lien du projet](http://projets.teillieraxel.com/nesti-site-administratif/connection)
-
-❗ Merci de respecter mon travail et de ne pas détruire la base de données ❗
+❌ Merci de respecter mon travail et de ne pas détruire la base de données
 
 ## Index
 
