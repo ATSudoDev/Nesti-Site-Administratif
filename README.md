@@ -2,6 +2,8 @@
 
 [Lien du projet](http://projets.teillieraxel.com/nesti-site-administratif/connection)
 
+/!\ Merci de respecter mon travail et de ne pas détruire la base de données /!\
+
 ## Index
 
 - [Aperçu](https://github.com/Axel-Teillier/Nesti-Site-E-Commerce/blob/master/README.md#aperçu)
@@ -65,7 +67,7 @@ L’objectif du projet était de développer une application web simple d’util
   - Un graphique sur les heures de connexion des utilisateurs,
   - Un graphique regroupant l’argent dépensé pour les commandes passées et l’argent gagné pour les commandes reçues en fonction des dix derniers jours,
   - Un graphique regroupant les bénéfices et dépenses en fonction de chaque article mis en vente,
-  - Plusieurs listes type Top 10 des meilleures commandes, utilisateurs, chefs et recettes,
+  - Plusieurs listes type Top 10 des meilleures commandes, utilisateurs, chefs et recettes.
 
 ## Outils et logiciels utilisés
 
