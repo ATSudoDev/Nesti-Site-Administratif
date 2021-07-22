@@ -12,8 +12,7 @@
 
 ## Aperçu
 
-![Image Projet](http://localhost:3001/static/media/Nesti%20-%20site%20administratif.1a3125e3.png)
-
+![Image Projet](https://teillieraxel.com/static/media/Nesti%20-%20site%20administratif.1a3125e3.png)
 
 ## Contexte
 
