@@ -58,7 +58,7 @@ L’objectif du projet était de développer une application web simple d’util
 
 - Permet à un administrateur ou un modérateur de gérer et modifier des utilisateurs,
 
-- Permettre à un administrateur ou un modérateur d’accéder à des informations personnelles sur un client en particulier (date de création du profil, dernière connexion, commandes effectuées et leurs détails). D’autres informations s’affiche en fonction du rôle de l’utilisateur c’est-à-dire :
+- Permet à un administrateur ou un modérateur d’accéder à des informations personnelles sur un client en particulier (date de création du profil, dernière connexion, commandes effectuées et leurs détails). D’autres informations s’affiche en fonction du rôle de l’utilisateur c’est-à-dire :
   - Si c’est un chef, l’accès au nombre de recettes crées et à la dernière recette créée,
   - Si c’est un administrateur, accès au nombre d’importations faites et date de la dernière importation,
   - Si c’est un modérateur, accès au nombre de commentaires bloqués et approuvés,
