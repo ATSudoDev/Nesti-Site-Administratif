@@ -16,12 +16,12 @@
 
 ## Contexte
 
-L'entreprise Nesti est une entreprise fictive ayant comme objectif de se digitaliser et ainsi développer un environnement d’e-commerce afin d’agrandir son marché. Pour ce faire, l’entreprise a fait appel à mes services afin d’obtenir un site administrateur permettant de gérer [le site vitrine e-commerce](https://projets.teillieraxel.com/nesti-site-e-commerce/public/).
+L'entreprise Nesti est une entreprise fictive ayant comme objectif de se digitaliser et ainsi développer un environnement d’e-commerce afin d’agrandir son marché. Pour ce faire, l’entreprise a fait appel à mes services afin d’obtenir un site administrateur permettant de gérer [son site vitrine e-commerce](https://projets.teillieraxel.com/nesti-site-e-commerce/public/).
 
 
 ## Objectif
 
-L’objectif du projet était de développer une application web simple d’utilisation de type administration (CRUD) permettant de gérer le site vitrine aussi bien au niveau des recettes que des articles mis en vente en passant par les profils utilisateurs des clients.
+L’objectif du projet était de développer une application web simple d’utilisation de type administration (CRUD) permettant de gérer son site vitrine aussi bien au niveau des recettes que des articles mis en vente en passant par les profils utilisateurs des clients.
 
 
 ## Éléments significatifs
@@ -35,9 +35,9 @@ L’objectif du projet était de développer une application web simple d’util
 
 - IDE : [*Visual Studio Code*](https://code.visualstudio.com/)
 - Librairies : 
-  -[*Bootstrap*](https://getbootstrap.com/)
-  -[*Bootstrap Table*](https://bootstrap-table.com/)
-  -[*Toast UI*](https://ui.toast.com)
+  - [*Bootstrap*](https://getbootstrap.com/)
+  - [*Bootstrap Table*](https://bootstrap-table.com/)
+  - [*Toast UI*](https://ui.toast.com)
 - Logiciel : [*FileZilla*](https://filezilla-project.org/)
 - Base de données : [*PHPMyAdmin*](https://www.phpmyadmin.net/)
 
